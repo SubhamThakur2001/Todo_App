@@ -111,7 +111,7 @@
                             <tr>
                                 <td>${newTask.id}</td>
                                 <td>${newTask.description}</td>
-                                <td>${newTask.completed ? "Done" : ""}</td>
+                                <td>${newTask.completed ? "Done" : "Pending"}</td>
                                 <td>
                                     <a href="/edit/${
                                         newTask.id
